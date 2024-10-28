@@ -2,7 +2,12 @@
   "item.gylexmod.platinum_coin": "Platinum Coin",
   "item.gylexmod.silver_coin": "Silver Coin",
   "item.gylexmod.copper_coin": "Copper Coin",
+  "item.gylexmod.blank_permit": "Blank Permit",
+  "item.gylexmod.diamond_permit": "Diamond Permit",
+  "item.gylexmod.gold_permit": "Gold Permit",
+  "item.gylexmod.iron_permit": "Iron Permit",
 
-  "itemgroup.gylexmod.cmd_items": "CMD Items"
+  "itemgroup.gylexmod.cmd_items": "CMD Items",
+  "itemgroup.gylexmod.permit_items": "Permit Items"
 
 }

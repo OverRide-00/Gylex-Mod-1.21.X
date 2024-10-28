@@ -20,6 +20,17 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_COIN);
                     }).build());
 
+    public static final ItemGroup PERMIT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GylexMod.MOD_ID, "permit_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DIAMOND_PERMIT))
+                    .displayName(Text.translatable("itemgroup.gylexmod.permit_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.BLANK_PERMIT);
+                        entries.add(ModItems.DIAMOND_PERMIT);
+                        entries.add(ModItems.GOLD_PERMIT);
+                        entries.add(ModItems.IRON_PERMIT);
+                    }).build());
+
 
 
     public static void registerItemGroups() {

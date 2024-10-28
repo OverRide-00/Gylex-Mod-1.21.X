@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gylexmod",
+	"version": "${version}",
+	"name": "Gylex Mod",
+	"description": "GylexMC's Custom Mod 1.21",
+	"authors": [
+		"OverRide"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gylexmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.override.gylexmod.GylexMod"
+		],
+		"fabric-datagen": [
+			"net.override.gylexmod.GylexModDataGenerator"
+		],
+		"client": [
+			"net.override.gylexmod.GylexModClient"
+		]
+	},
+	"mixins": [
+		"gylexmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
